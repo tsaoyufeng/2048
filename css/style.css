@@ -16,7 +16,7 @@ header {
 	padding: 8px;
 }
 .button{
-	width: 25%;
+	width: 30%;
 	height: 40px;
 	display: inline-block;
 	line-height: 40px;
@@ -119,6 +119,32 @@ header {
 .num8192 {
 	background: #93c;
 }
+.num16384 {
+	background: #ff7d00;
+}
+.num32768 {
+	background: #4b4b4b;
+}
+.num65536 {
+	background: #030303;
+}
 #gameOver {
+	position: absolute;
 	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+#gameOver p{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	border-radius: 10px;
+	width: 300px;
+	border: 1px solid #edcf72;
+	background: #fff;
+	font-size: 30px;
+	text-align: center;
+	opacity: 0.7;
 }

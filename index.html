@@ -4,12 +4,13 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" href="http://2048game/favicon.ico">
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 	<title>2048</title>
 </head>
 <body>
 	<header>
-		<h1>2048</h1>
+		<h1>65536</h1>
 	</header>
 
 	<div id="gamePanel">
@@ -85,16 +86,16 @@
 			<div class="cell num2048" id="cell22">2048</div>
 			<div class="cell num4096" id="cell23">4096</div>
 			<div class="cell num8192" id="cell30">8192</div>
-			<div class="cell" id="cell31">2</div>
-			<div class="cell" id="cell32">2</div>
-			<div class="cell" id="cell33">2</div>
+			<div class="cell num16384" id="cell31">16384</div>
+			<div class="cell num32768" id="cell32">32768</div>
+			<div class="cell num65536" id="cell33">65536</div>
 
 			<!-- gameover -->
 			<div id="gameOver">
 				<p>
 					GAME OVER!!!<br>
 					得分：<span id="finalScore">0</span><br>
-					<a class="button" id="restart">Try Again</a>
+					<a class="button" id="restart">Again</a>
 				</p>
 			</div>
 			

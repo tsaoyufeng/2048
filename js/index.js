@@ -94,7 +94,7 @@ $(function () {
             // 判断随机的位置是否可以出现随机数(2和4)
             if (cells[row][col] == 0) {
                 // 说明当前位置没有数,可以出现随机数
-                var n = Math.random() < 0.5 ? 2 : 4;
+                var n = Math.random() < 0.5 ? 1024 : 2048;
                 cells[row][col] = n;
                 break;
             };
