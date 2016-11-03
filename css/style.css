@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	font-family: ;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+#gamePanel {
+	width: 500px;
+	margin: 0 auto;
+}
+#gamePanel p {
+	padding: 8px;
+}
+.button{
+	width: 25%;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	background: #8f7a66;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+}
+#gridPanel {
+	width: 480px;
+	height: 480px;
+	padding: 10px;
+	background: #bbada0;
+	border-radius: 6px;
+	position: relative;
+
+}
+.grid, .cell {
+	width: 100px;
+	height: 100px;
+	border-radius: 6px;
+}
+#gridPanel .grid{
+	background: #cdc1b4;
+	float: left;
+	margin: 10px;
+}
+.cell {
+	position: absolute;
+	line-height: 100px;
+	text-align: center;
+	font-size: 40px;
+	color: #776e65
+}
+#cell00, #cell01, #cell02, #cell03 {
+	top: 20px;
+}
+#cell10, #cell11, #cell12, #cell13 {
+	top: 140px;
+}
+
+#cell20, #cell21, #cell22, #cell23 {
+	top: 260px;
+}
+
+#cell30, #cell31, #cell32, #cell33 {
+	top: 380px;
+}
+#cell00, #cell10, #cell20, #cell30 {
+	left: 20px;
+}
+#cell01, #cell11, #cell21, #cell31 {
+	left: 140px;
+}
+#cell02, #cell12, #cell22, #cell32 {
+	left: 260px;
+}
+#cell03, #cell13, #cell23, #cell33 {
+	left: 380px;
+}
+
+.num2 {
+	background: #eee4da;
+}
+.num4 {
+	background: #ede08c;
+}
+.num8 {
+	background: #f2b179;
+}
+.num16 {
+	background: #f59563;
+}
+.num32 {
+	background: #f67c5f;
+}
+.num64 {
+	background: #f65b3e;
+}
+.num128 {
+	background: #edcf72;
+}
+.num256 {
+	background: #edcc61;
+}
+.num512 {
+	background: #9c0;
+}
+.num1024 {
+	background: #33b5e5;
+}
+.num2048 {
+	background: #09c;
+}
+.num4096 {
+	background: #a6c;
+}
+.num8192 {
+	background: #93c;
+}
+#gameOver {
+	display: none;
+}
